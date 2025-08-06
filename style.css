@@ -1,0 +1,32 @@
+    .product h2 {
+      margin: 0 0 10px;
+      font-size: 20px;
+    }
+
+    .product p {
+      margin: 0 0 10px;
+      font-size: 14px;
+      color: #666;
+    }
+
+    .price {
+      font-weight: bold;
+      color: #27ae60;
+      margin-bottom: 15px;
+    }
+
+    .buy-btn {
+      background: #3498db;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background 0.3s ease;
+    }
+
+    .buy-btn:hover {
+      background: #2980b9;
+    }
+  </style>
