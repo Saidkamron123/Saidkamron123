@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Мой WebApp</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      background: #f5f5f5;
+      padding: 50px;
+    }
+    .btn {
+      padding: 15px 30px;
+      font-size: 18px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Добро пожаловать в мой WebApp!</h1>
+  <p>Это простая HTML-страница для Telegram WebApp</p>
+
+  <button class="btn" onclick="alert('Спасибо за нажатие!')">Нажми меня</button>
+
+  <script>
+    // Если ты открываешь это в Telegram WebApp — подключи API
+    if (window.Telegram.WebApp) {
+      Telegram.WebApp.expand(); // открыть на весь экран
+      console.log("Открыто через Telegram WebApp");
+    }
+  </script>
+
+</body>
+</html>
